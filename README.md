@@ -83,7 +83,7 @@ Student ID must be unique
 ## Sample Output
 Topper: (101, 'Rahul', 'BCA', 92, 95, 93.6)
 
- Future Enhancements
+ ## Future Enhancements
 GUI using Tkinter or Web App using Flask
 User Authentication System
 Data Visualization (Charts & Graphs)
