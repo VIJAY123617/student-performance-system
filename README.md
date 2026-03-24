@@ -83,7 +83,7 @@ API Integration
 👨‍💻 Author
 
 Vijay Dubey
-Data Analyst || python | SQL | Data Analysis
+    Data Analyst || python | SQL | Data Analysis
 
 
 Support
