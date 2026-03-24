@@ -90,7 +90,7 @@ Data Visualization (Charts & Graphs)
 API Integration
 👨‍💻 Author
 
-## Vijay Dubey
+ Vijay Dubey
 Data Analyst || python | SQL | Data Analysis
 
 
