@@ -35,6 +35,13 @@ Student-Performance-System/
 
 ---
 
+## ⚙️ Setup Instructions
+
+### 1️⃣ Install Required Libraries
+
+pip install pyodbc pandas openpyxl
+
+
 ### 2️⃣ Create Database in SQL Server
 
 CREATE DATABASE student_db;
@@ -49,7 +56,7 @@ CREATE TABLE student (
     ATTENDANCE INT
 );
 
-Configure Database Connection
+##  Configure Database Connection
 
 Update your connection string in Python:
 
@@ -60,19 +67,20 @@ conn = pyodbc.connect(
     'TRUSTED_CONNECTION=YES;'
 )
 
-#Run the Project
+##  Run the Project
 python Student_Analysis_System.py
-📈 Performance Calculation
+
+## 📈 Performance Calculation
 Topper is calculated using the following formula:
 
 Score = (Marks * 0.8) + (Attendance * 0.2)
 
-✅ Validation Rules
+## ✅ Validation Rules
 Marks must be between 0–100
 Attendance must be between 35–100
 Student ID must be unique
 
-#Sample Output
+## Sample Output
 Topper: (101, 'Rahul', 'BCA', 92, 95, 93.6)
 
  Future Enhancements
@@ -82,10 +90,8 @@ Data Visualization (Charts & Graphs)
 API Integration
 👨‍💻 Author
 
-Vijay Dubey
-    Data Analyst || python | SQL | Data Analysis
+## Vijay Dubey
+Data Analyst || python | SQL | Data Analysis
 
 
-Support
 
-If you like this project, please give it a ⭐ on GitHub!
